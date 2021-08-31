@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+wwwroot/css
+wwwroot/js
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.code-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+
+# System Files
+.DS_Store
+Thumbs.db
