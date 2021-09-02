@@ -1,6 +1,9 @@
 # dependencies
 node_modules
-wwwroot/css
+wwwroot/css/@cds
+wwwroot/css/bootstrap
+wwwroot/css/modern-normalize
+wwwroot/css/open-iconic
 wwwroot/js
 
 # IDEs and editors
@@ -20,3 +23,7 @@ wwwroot/js
 # System Files
 .DS_Store
 Thumbs.db
+
+# generated files
+obj/Debug
+bin

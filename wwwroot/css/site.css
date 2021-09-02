@@ -1,8 +1,10 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+@import 'modern-normalize/modern-normalize.css';
+@import '@cds/core/global.min.css';
+@import '@cds/core/styles/module.shims.min.css';
+@import '@cds/city/css/bundles/default.min.css';
+
 
 a, .btn-link {
     color: #0366d6;

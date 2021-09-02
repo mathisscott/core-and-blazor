@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JA5t4NutPeu+o/wz/oJ3vzD6Mt90ABElxOr10lM7EsTXSy86LMVz1CWU/eIR7mF0dJf8sEdPfrsBacEkP9a7yA==",
+  "dgSpecHash": "pRmYML+gZ2IaiVDEfipLwFIgPuLR9VhIrqO0d1GnUyZo7FI88Y415/BIYiSQX3qjDApAz1Ggt1Q9r69MUoREiw==",
   "success": true,
   "projectFilePath": "/Users/smathis/_dev/lernin/BlazorApp/BlazorApp.csproj",
-  "expectedPackageFiles": [
-    "/Users/smathis/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.8/microsoft.netcore.app.host.osx-x64.5.0.8.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
