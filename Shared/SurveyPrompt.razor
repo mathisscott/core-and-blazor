@@ -1,6 +1,6 @@
 @if (showAlert) {
     <cds-alert-group status="info">
-        <cds-alert closable @onclosechange="@HandleCloseChange">
+        <cds-alert closable @onclosechange="HandleCloseChange">
             Take a <a target="_blank" class="font-weight-bold" href="https://go.microsoft.com/fwlink/?linkid=2137813">brief
                 survey</a> and tell us what you think.
         </cds-alert>
@@ -8,6 +8,11 @@
 }
 
 @code {
+    public class CloseChangeEventArgs : EventArgs
+    {
+        public string Wat { get; set; }
+    }
+
     // Demonstrates how a parent component can supply parameters
     [Parameter]
     public string Title { get; set; }
@@ -19,12 +24,11 @@
         showAlert = !showAlert;
     }
 
-    void HandleCloseChange(CloseChangeEventsArgs e)
+    void HandleCloseChange(CloseChangeEventArgs e)
     {
         Console.WriteLine("e returns? " + e.Wat);
         ToggleAlert();
     }
-
 
     [EventHandler("onclosechange", typeof(CloseChangeEventArgs), true, true)]
     public static class EventHandlers

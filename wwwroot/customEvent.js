@@ -1,5 +1,3 @@
-const alert = document.querySelector('cds-alert');
-
 console.log('HOWDY');
 
 Blazor.registerCustomEventType("closeChange", {
